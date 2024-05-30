@@ -1,0 +1,47 @@
+@import url('style.css');
+
+/* Aumentar contraste y tamaño de fuente para mejor accesibilidad */
+body, input, button, textarea {
+    font-size: 25px; /* Tamaño de fuente mayor */
+    color: #000; /* Color de texto más oscuro para mejor contraste */
+    background-color: #FFF; /* Fondo más claro */
+}
+
+a, .btn, .btn-eliminar {
+    background-color: #bbb0b0; /* Fondo más claro para botones */
+    color: #000; /* Texto más oscuro para mejor contraste */
+}
+
+input[type="radio"], input[type="checkbox"] {
+    transform: scale(1.5); /* Hacer inputs más grandes */
+}
+
+h1{
+    font-family: var(--fontFamily-oswald);
+    font-size: 5rem;
+    color: #000;
+}
+h3{
+    font-family: var(--fontFamily-oswald);
+    font-size: 2rem;
+    color: #000;
+}
+.container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: stretch;
+    gap: 20px; 
+}
+.row {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+}
+
+section {
+    flex: 1; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    text-align: center;
+}
